@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--recurso string de la id de nuestra aplicacion-->
+    <string name="facebook_app_id">197132767561703</string>
+
+
+    <string name="pregunta">Pregunta</string>
+    <string name="check">Siguiente</string>
+    <string name="correct">Muy  bueno</string>
+    <string name="incorrect">Incorrecto...</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Finalizar</string>
+    <string name="prev">Anterior</string>
+
+    <array name="all_questions">
+        <item>¿Cual de las siguientes opciones es un nombre de variable correcto?;Total
+            Comision;%TotalComision;*totalComision;totalComisión
+        </item>
+        <item>¿Cual de estas no es una caracteristica de los
+            algoritmos?;Preciso;*Infinito;Finito;Definido
+        </item>
+    </array>
+
+
+    <array name="all_questions2">
+        <item>¿La estructura desde es una estructura?;Secuencial;Selectiva;*Iteractiva;Ninguna
+        </item>
+        <item>Las estructuras iteractivas son; Entrada, Proceso, Salida; si-entonces,
+            sino-entonces-sino, segun sea;*mientras, desde, hacer mientras; Ninguna
+        </item>
+        <item>Es una variable la cual incrementa o decrementa su valor en una cantidad
+            fija;*Contador;Acumulador;Bucle;Ninguna;</item>-->
+    </array>
+
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_google">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context="com.example.ismael.myapplication.SubmenuEstructuras">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="ESTRUCTURAS DE CONTROL"
+                android:textSize="22dp"
+                android:textColor="#181717"
+                android:textAlignment="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#141514"
+                android:text="Las estructuras de control de un lenguaje de programación son métodos de especificar el orden en que las instrucciones de un algoritmo se ejecutarán.
+            \nEstas estructuras de control son, por consiguiente fundamentales en los lenguajes de programación y en los diseños de algoritmos.\n
+Las estructuras de operación de programas son un grupo de formas de trabajo que permiten, mediante la manipulación de  variables, realizar ciertos procesos especificos que nos lleven a la solución de problemas"
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#181717"
+                android:text="Clasificación de las estructuras de control"
+                android:textSize="18dp"
+                android:textAlignment="inherit"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#141514"
+                android:text=" 1.Estructura Secuancial
+\n\tEntrada
+\n\tProceso
+\n\tSalida
+\n\n 2. Estructuras Selectivas
+\n\t Selectiva simple (si - entonces / if - then).
+\n\t Selectiva doble (si - entonces- sino / if - then - else).
+\n\t Selectiva múltiple (según sea / case).
+\n\n 3. Estructuras iterativas
+\n\t Estructura mientras (while).
+\n\t Estructuras desde / para (for).
+\n\t Estructura hacer... mientras (do ... while).
+\n\t Estructuras anidadas
+\n\n\n
+CONCEPTOS BÁSICOS DE LAS ESTRUCTURAS REPETITIVAS
+\n\n
+    BUCLE: o lazo(ciclo), es un segmento de un algoritmo o programa cuyas instrucciones se repiten un número determinado de veces,  mientras se cumple una determinada condición especifica.
+\n
+    CONTADORES: Un contador es una variable cuyo valor se incrementa o decrementa en una cantidad fija, en cada interaccion que se realiza en el bucle. El contador es un campo de memoria cuyo valor se incrementa en una cantidad fija, positiva, generalmente asociada a un bucle.
+\n
+    ACUMULADORES: Un acumulador es un campo de memoria cuyo valor se incrementa sucesivas veces en cantidades variables. Se utiliza en aquellos caso que se desea obtener el total acumulado de un conjunto de cantidades, siendo precisoinicializarlo con el valor cero.
+
+"
+                android:textSize="18sp"
+                />
+<!--
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+
+                android:layout_margin="20dp"
+                app:srcCompat="@android:drawable/btn_star" />
+-->
+            <Button
+                android:id="@+id/btnEjercicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes_button"
+                android:text="Evaluado" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

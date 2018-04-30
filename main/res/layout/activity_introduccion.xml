@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context="com.example.ismael.myapplication.Introduccion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="CONCEPTOS BÁSICOS"
+                android:textSize="22dp"
+                android:textColor="#181717"
+                android:textAlignment="center"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#141514"
+                android:text="¿Que es un algoritmo?
+\n\n
+Son una secuencia finita de pasos que hace posible la ejecución de actividades. Los algoritmos se pueden expresar de diversas formas: lenguaje natural, lenguaje de programación, pseudocódigo y diagramas de flujo.
+\n\n\n
+CARACTERISTICAS DE UN ALGORITMO
+\n\n
+    -Preciso: El algoritmo debe expresar el orden exacto de ejecución de cada tarea. El tiempo y ezfuerzo por cada paso realizado debe ser preciso, no usando nada más ni nada menos que aquellos que requiere para y en su ejecución.
+\n\n
+    -Definido: Sin ambigüedades, cada paso del algoritmo debe de indicar la acción a realizar sin criterios de interpretación.
+\n\n
+    -Finito: Un numero de especifico y numerable pasos debe de componer al algoritmo, el cual debe de finalizar al competarlo. El algoritmo, independientemente de la complejidad del mismo, siempre debe ser de longitud finita.
+\n\n\n
+ACCIONES DEL ALGORITMO
+\n\n
+-Pedir datos: lo que una computadora puede pedir son numeros o palabras, que automaticamente son asignados a una zona de memoria de la computadora, llamarla como el programador quiera nombrarla.
+\n\n
+-Desplegar datos: Una computadora puede mostrarnos, por pantalla, numeros o palabras que, en su conjunto, nos den el resultado.
+\n\n
+-Evaluación de condición: la computadora es capazde comparar numeros para saber si alguno es mayor, menor o igual que otro; tambien es capaz de comparar palabras para saber si es alguna es mas extensao tiene precedencia alfabetica sobre la otra.
+\n\n
+-Ejecutar operaciones: La computadora puede realizar operaciones aritméticas guardando el resultado en alguna variable. Además, determinar el valor inicial de una variable.
+\n\n\n
+VARIABLES
+\n\n
+Las variables son objetos que pueden cambiar su valor durante la ejecución de un algoritmo o la ejecución del programa. Toda variable pertenece a un tipo de dato concreto. En la declaración de variable se debe indicar el tipo al que pertenece.
+\n\n\n
+CONSTANTES
+\n\n
+Es una partida de datos que permanecen sin cambios durante todo el desarrollo del algoritmo o durante la ejecución de un programa. Esto quiere decir que, el dato que tiene dentro es el mismo desde que comienza el programa hasta que termina, y bajo ninguna circunstancia ni procediumiento puede cambiar.
+\n\n
+
+\n\n"
+
+
+
+
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+
+
+        <!--
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_light"
+
+                    android:layout_margin="20dp"
+                    app:srcCompat="@android:drawable/btn_star" />
+    -->
+
+        <Button
+            android:id="@+id/btnEjercioIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/bordes_button"
+            android:text="Evaluado" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
